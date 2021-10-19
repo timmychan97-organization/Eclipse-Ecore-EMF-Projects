@@ -1,0 +1,6 @@
+1575230138480	Rename package 'assignment2.converter.api'
+1575231790516	Rename method 'getStartUnit'
+1575231802023	Rename method 'getEndUnit'
+1575233839334	Rename local variable 'endUnit'
+1575234011577	Rename local variable 'startUnitSymbol'
+1575234018677	Rename local variable 'endUnitSymbol'

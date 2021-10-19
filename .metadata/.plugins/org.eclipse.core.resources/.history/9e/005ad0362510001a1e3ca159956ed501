@@ -1,0 +1,82 @@
+package imdb.dataset;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EPackage;
+import org.eclipse.emf.ecore.EcoreFactory;
+
+public class DatasetDeserializer {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		
+	}
+	
+	
+	public static void deserialize(File file) {
+		/*
+		* Instantiate EcoreFactory
+		*/
+		EcoreFactory theCoreFactory = EcoreFactory.eINSTANCE;
+		 
+		/*
+		* Create EClass instance to model BookStore class
+		*/
+		EClass bookStoreEClass = theCoreFactory.createEClass();
+		bookStoreEClass.setName("BookStore");
+		 
+		/*
+		* Create EClass instance to model Book class
+		*/
+		EClass bookEClass = theCoreFactory.createEClass();
+		bookEClass.setName("Book");
+		 
+		/*
+		* Instantiate EPackage and provide unique URI
+		* to identify this package
+		*/
+		EPackage bookStoreEPackage = theCoreFactory.createEPackage();
+		bookStoreEPackage.setName("BookStorePackage");
+		bookStoreEPackage.setNsPrefix("bookStore");
+		bookStoreEPackage.setNsURI("http:///com.ibm.dynamic.example.bookstore.ecore");
+	}
+	
+	
+	public static void deserializeSubsetAkas(){
+		String filename = "subsetakas.tsv";
+		
+	}
+	public static void deserializeSubsetBasics(){
+		String filename = "subsetbasics.tsv";
+				
+
+	}
+
+	public static void deserializeSubsetName(){
+		String filename = "subsetname.tsv";
+		
+	}
+
+	public static void deserializeSubsetRating(){
+		String filename = "subsetrating.tsv";
+		
+	}
+	public static void deserializeSubsetPrincipals(){
+
+		String filename = "subsetprincipals.tsv";
+		// Open file
+		try(BufferedReader br = new BufferedReader(new FileReader(filename))) {
+		    for(String line; (line = br.readLine()) != null; ) {
+		    	
+		    }
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+
+}

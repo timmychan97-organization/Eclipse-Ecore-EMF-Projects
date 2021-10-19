@@ -1,0 +1,135 @@
+package imdb.dataset;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+import org.eclipse.emf.common.util.URI;
+import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EPackage;
+import org.eclipse.emf.ecore.EcoreFactory;
+import org.eclipse.emf.ecore.resource.Resource;
+import org.eclipse.emf.ecore.resource.ResourceSet;
+import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
+
+import imdb.ImdbFactory;
+import imdb.impl.ImdbFactoryImpl;
+
+public class DatasetDeserializer {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		
+	}
+	
+	static ImdbFactory imdbFactory;
+	public static void deserialize() {
+		/*
+		* Instantiate EcoreFactory
+		*/
+		EcoreFactory theCoreFactory = EcoreFactory.eINSTANCE;
+		
+		/*
+		* Create EClass instance to model BookStore class
+		*/
+		imdbFactory = new ImdbFactoryImpl();
+		 
+		/*
+		* Create EClass instance to model Book class
+		*/
+		EClass bookEClass = theCoreFactory.createEClass();
+		bookEClass.setName("Book");
+		 
+		/*
+		* Instantiate EPackage and provide unique URI
+		* to identify this package
+		*/
+		EPackage bookStoreEPackage = theCoreFactory.createEPackage();
+		bookStoreEPackage.setName("BookStorePackage");
+		bookStoreEPackage.setNsPrefix("bookStore");
+		bookStoreEPackage.setNsURI("http:///com.ibm.dynamic.example.bookstore.ecore");
+	}
+	
+	
+	public static void deserializeSubsetAkas(){
+		String filename = "subsetakas.tsv";
+		
+	}
+	
+	// This will Make ecore factory include all 
+	public static void deserializeSubsetBasics(){
+		String filename = "subsetbasics.tsv";
+		
+		// Make create empty XMI file
+		
+		
+		// Open file
+		try(BufferedReader br = new BufferedReader(new FileReader(filename))) {
+		    for(String line; (line = br.readLine()) != null; ) {
+		    	deserializeSubsetBasicsLine(line);
+		    }
+		    
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void deserializeSubsetBasicsLine(String line){
+		
+	}
+	
+
+	public static void deserializeSubsetName(){
+		String filename = "subsetname.tsv";
+		
+	}
+
+	public static void deserializeSubsetRating(){
+		String filename = "subsetrating.tsv";
+		
+	}
+	public static void deserializeSubsetPrincipals(){
+
+		String filename = "subsetprincipals.tsv";
+		// Open file
+		try(BufferedReader br = new BufferedReader(new FileReader(filename))) {
+		    for(String line; (line = br.readLine()) != null; ) {
+		    	
+		    }
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+	public void static serializeToXMI(String file) {
+		ResourceSet resourceSet = new ResourceSetImpl();
+		/*
+		* Register XML Factory implementation using DEFAULT_EXTENSION
+		*/
+		resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put(
+		    "*", new  XMLResourceFactoryImpl());
+		 
+		/*
+		* Create empty resource with the given URI
+		*/
+		Resource resource = resourceSet.createResource(URI.createURI("./bookStore.xml"));
+		 
+		/*
+		* Add bookStoreObject to contents list of the resource 
+		*/
+		resource.getContents().add(bookStoreObject);
+		 
+		try{
+		    /*
+		    * Save the resource
+		    */
+		      resource.save(null);
+		   }catch (IOException e) {
+		      e.printStackTrace();
+		   }
+	}
+	
+	
+
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\School\2019 Fall\test\tdt4250\Assignment1\tdt4250.modelingExercise.studyProgramStructure"/>
+		<item value="D:\School\2019 Fall\TDT4250-assignments\assignment1"/>
+		<item value="D:\School\2019 Fall\TDT4250-delivery\assignment1"/>
+		<item value="D:\School\2019 Fall\TDT4250-delivery\assignment3\studyPlanConverter"/>
+		<item value="D:\School\2019 Fall\test\studyPlanConverter"/>
+		<item value="D:\School\2019 Fall\TDT4250\tdt4250-semester-project\imdb"/>
+		<item value="D:\School\2019 Fall\TDT4250-delivery\assignment2"/>
+		<item value="D:\School\2019 Fall\TDT4250-assignments\assignment2"/>
+		<item value="D:\School\2019 Fall\TDT4250\sampleDynamicBookstoreModelCode"/>
+		<item value="D:\School\2019 Fall\TDT4250-assignments"/>
+		<item value="D:\School\2019 Fall\TDT4250\examples"/>
+		<item value="D:\School\2019 Fall\TDT4250\tdt4250-semester-project"/>
+	</list>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.xtext.xtext.ui.wizard.ecore2xtext.NewXtextProjectFromEcoreWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.xtext.projectwiz"/>
+		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item key="OUTSIDE_LOCATION" value="D:\School\2019 Fall\assignment3"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\School\2019 Fall\studyPlanConverter"/>
+			<item value="D:\School\2019 Fall\assignment3"/>
+			<item value="D:\School\2019 Fall\TDT4250-assignments\assignment3\studyPlan.acceleo"/>
+			<item value="D:\School\2019 Fall\TDT4250-assignments\assignment1"/>
+			<item value="D:\School\2019 Fall\TDT4250-assignments\assignment3\studyPlan.servlet"/>
+			<item value="D:\School\2019 Fall\TDT4250-assignments\assignment3\study.acceleo"/>
+			<item value="D:\School\2019 Fall\TDT4250\tdt4250-semester-project"/>
+			<item value="D:\School\2019 Fall\TDT4250-assignments\assignment3"/>
+			<item value="D:\School\2019 Fall\TDT4250-assignments\assignment2"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="545"/>
+		<item key="DIALOG_Y_ORIGIN" value="294"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="710"/>
+		<item key="DIALOG_Y_ORIGIN" value="252"/>
+		<item key="DIALOG_WIDTH" value="500"/>
+		<item key="DIALOG_HEIGHT" value="402"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/studyPlanConverter/input/study.ecore&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/studyPlanConverter/input/NTNU.xmi&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/studyPlanConverter/input/studyPlan.xmi&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowDerived" value="false"/>
+		<item key="FilterByLocation" value="false"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="212"/>
+			<item key="DIALOG_Y_ORIGIN" value="-13"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

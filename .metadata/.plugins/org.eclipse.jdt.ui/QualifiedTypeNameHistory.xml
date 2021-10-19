@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.eclipse.emf.ecore.EcoreFactory"/>
+<fullyQualifiedTypeName name="org.eclipse.emf.ecore.EClass"/>
+<fullyQualifiedTypeName name="org.eclipse.emf.ecore.EPackage"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="imdb.ImdbPackage"/>
+<fullyQualifiedTypeName name="imdb.ImdbFactory"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="org.osgi.service.log.Logger"/>
+<fullyQualifiedTypeName name="imdb.Involvement"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="imdb.TvSeries"/>
+<fullyQualifiedTypeName name="imdb.Episode"/>
+<fullyQualifiedTypeName name="imdb.TitleType"/>
+<fullyQualifiedTypeName name="imdb.Title"/>
+<fullyQualifiedTypeName name="javafx.scene.chart.XYChart.Series"/>
+</qualifiedTypeNameHistroy>
